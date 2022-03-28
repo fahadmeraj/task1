@@ -1,7 +1,7 @@
 {
   "name": "node-hello",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple node.js app that servers \"hello world\"",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/johnpapa/node-hello/issues"
   },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "homepage": "https://github.com/johnpapa/node-hello#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {}
 }
