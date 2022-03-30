@@ -10,4 +10,4 @@
       password: "{{password}}"
       to: Fahad Meraj <fahadmeraj@gmail.com>, Fahad Meraj Hotmail <fahadmeraj@hotmail.com>
       subject: Ansible-report-for-task1
-      body: 'task execution has sucessfully completed.'
+      body: 'pipeline execution failed for task1'
