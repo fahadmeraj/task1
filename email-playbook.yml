@@ -8,6 +8,6 @@
       port: 587
       username: fahadmeraj@gmail.com
       password: "{{password}}"
-      to: Fahad Meraj <fahadmeraj@gmail.com>,  Bilal Mahroof <bilal.mahroof@avanzainnovations.com>
+      to: Fahad Meraj <fahadmeraj@gmail.com>
       subject: Ansible-report-for-task1
       body: 'task execution has sucessfully completed.'
