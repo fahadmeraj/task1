@@ -1,0 +1,13 @@
+#test playbook to send email
+- hosts: localhost
+  vars_files: encrypt.txt
+  tasks:
+  - name: send email via gmail
+    mail:
+      host: smtp.gmail.com
+      port: 587
+      username: fahadmeraj@gmail.com
+      password: "{{password}}"
+      to: Fahad Meraj <fahadmeraj@gmail.com>
+      subject: Ansible-report
+      body: 'task has been successfully built.'
